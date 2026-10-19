@@ -1,0 +1,10 @@
+[
+  { "id": "490-a2", "course": "TCSS 490", "title": "Artifact 2: Something You Will Use", "due": "2026-10-18T23:59", "link": "https://cfb3.github.io/TCSS490-26-AUTUMN/assignments/artifact-2/" },
+  { "id": "305-a1b", "course": "TCSS 305", "title": "Assignment 1b: Test-Driven Development", "due": "2026-10-18T23:59", "link": "https://cfb3.github.io/TCSS305-26-AUTUMN/assignments/a1b/" },
+  { "id": "305-a1c", "course": "TCSS 305", "title": "Assignment 1c: Bookstore Implementation", "due": "2026-10-25T23:59", "link": "https://cfb3.github.io/TCSS305-26-AUTUMN/assignments/a1c/" },
+  { "id": "490-a3", "course": "TCSS 490", "title": "Artifact 3: AI Inside It", "due": "2026-10-25T23:59", "link": "https://cfb3.github.io/TCSS490-26-AUTUMN/assignments/artifact-3/" },
+  { "id": "305-a2", "course": "TCSS 305", "title": "Assignment 2: Road Rage", "due": "2026-11-08T23:59", "link": "https://cfb3.github.io/TCSS305-26-AUTUMN/assignments/a2/" },
+  { "id": "490-a4", "course": "TCSS 490", "title": "Artifact 4: For Someone Else", "due": "2026-11-08T23:59", "link": "https://cfb3.github.io/TCSS490-26-AUTUMN/assignments/artifact-4/" },
+  { "id": "305-a3", "course": "TCSS 305", "title": "Assignment 3: Sketch Pad", "due": "2026-11-15T23:59", "link": "https://cfb3.github.io/TCSS305-26-AUTUMN/assignments/a3/" },
+  { "id": "490-a5", "course": "TCSS 490", "title": "Artifact 5: The Moonshot", "due": "2026-12-13T23:59", "link": "https://cfb3.github.io/TCSS490-26-AUTUMN/assignments/artifact-5/" }
+]

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deadline Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Deadline Tracker</h1>
+    <p id="summary" class="summary">Loading…</p>
+  </header>
+
+  <main>
+    <section class="controls">
+      <label>Course
+        <select id="course-filter">
+          <option value="all">All courses</option>
+        </select>
+      </label>
+      <label class="check"><input type="checkbox" id="show-done"> Show done</label>
+    </section>
+
+    <ul id="list" class="list"></ul>
+    <p id="empty" class="empty" hidden>Nothing due. Enjoy it.</p>
+
+    <section class="add">
+      <h2>Add a deadline</h2>
+      <form id="add-form">
+        <label>Course
+          <input id="add-course" list="course-options" placeholder="TCSS 371" required>
+          <datalist id="course-options">
+            <option value="TCSS 305"><option value="TCSS 371"><option value="TCSS 490">
+          </datalist>
+        </label>
+        <label>Title
+          <input id="add-title" placeholder="Assignment 2" required>
+        </label>
+        <label>Due
+          <input id="add-due" type="datetime-local" required>
+        </label>
+        <label>Link (optional)
+          <input id="add-link" type="url" placeholder="https://…">
+        </label>
+        <button type="submit">Add</button>
+      </form>
+      <p class="note">Added deadlines and checkmarks are saved in this browser.</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
