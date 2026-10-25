@@ -154,7 +154,8 @@ document.getElementById("add-form").addEventListener("submit", event => {
 document.getElementById("course-filter").addEventListener("change", render);
 document.getElementById("show-done").addEventListener("change", render);
 
-fetch("deadlines.json")
+// "no-cache" makes the browser check for a newer file, since the extractor updates it.
+fetch("deadlines.json", { cache: "no-cache" })
   .then(response => response.json())
   .then(data => { builtIn = data; })
   .catch(() => { document.getElementById("summary").textContent = "Could not load deadlines.json"; })

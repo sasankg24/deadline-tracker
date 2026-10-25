@@ -94,3 +94,7 @@ Built with Claude (an AI coding agent) working in this repository on my Mac.
 - The quote check proves a date appears on the page, but not that it belongs to that
   assignment. A stricter check could require the title to appear near the quote.
 - Running it straight from a Canvas URL instead of a saved file.
+6. **After publishing,** the live page still showed only the old 8 deadlines: the browser
+   kept a cached `deadlines.json` (GitHub Pages allows up to 10 minutes). Now that the
+   extractor changes that file, `app.js` fetches it with `cache: "no-cache"` so the page
+   always checks for the newest version.
